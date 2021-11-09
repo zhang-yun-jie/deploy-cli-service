@@ -1,33 +1,37 @@
 {
-  "name": "deploy-cli-service",
-  "version": "1.3.0",
-  "description": "前端一键自动化部署脚手架服务",
-  "main": "lib/service.js",
-  "homepage": "https://github.com/fuchengwei/deploy-cli-service",
-  "author": {
-    "name": "fuchengwei"
+  "name": "@tnnevol/deploy-cli-service",
+  "version": "1.1.0",
+  "description": "自动化部署",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "node -v",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tnnevol/deploy-cli-service.git"
   },
   "keywords": [
     "deploy",
-    "cli"
+    "auto-deploy"
   ],
-  "bin": {
-    "deploy-cli-service": "bin/deploy-cli-service.js"
-  },
+  "author": "tnnevol",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/fuchengwei/deploy-cli-service"
+  "bugs": {
+    "url": "https://github.com/tnnevol/auto-deploy/issues"
   },
+  "homepage": "https://github.com/tnnevol/auto-deploy#readme",
   "dependencies": {
     "archiver": "^5.0.2",
     "chalk": "^4.1.0",
     "commander": "^6.1.0",
+    "crypto-js": "^4.0.0",
     "dayjs": "^1.10.4",
     "inquirer": "^7.3.3",
     "minimist": "^1.2.5",
     "node-ssh": "^11.0.0",
     "ora": "^5.1.0",
-    "prettier": "^2.1.1"
+    "prettier": "^2.1.1",
+    "uuid": "^8.3.2"
   }
 }
