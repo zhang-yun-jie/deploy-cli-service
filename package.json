@@ -15,12 +15,16 @@
     "deploy",
     "auto-deploy"
   ],
-  "author": "tnnevol",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/tnnevol/auto-deploy/issues"
+  "author": {
+    "name": "tnnevol",
+    "email": "greecenew@foxmail.com",
+    "organization": true
   },
-  "homepage": "https://github.com/tnnevol/auto-deploy#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/tnnevol/deploy-cli-service/tree/private#readme",
   "dependencies": {
     "archiver": "^5.0.2",
     "chalk": "^4.1.0",
