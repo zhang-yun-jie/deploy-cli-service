@@ -1,6 +1,6 @@
 {
   "name": "@tnnevol/deploy-cli-service",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "自动化部署",
   "main": "lib/index.js",
   "scripts": {
