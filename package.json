@@ -1,5 +1,5 @@
 {
-  "name": "@tnnevol/deploy-cli-service",
+  "name": "@zhangyunjie/deploy-cli-service",
   "version": "2.1.0",
   "description": "自动化部署",
   "main": "lib/index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:tnnevol/deploy-cli-service.git"
+    "url": "git@github.com:zhang-yun-jie/deploy-cli-service.git"
   },
   "keywords": [
     "deploy",
     "auto-deploy"
   ],
   "author": {
-    "name": "tnnevol",
+    "name": "zhangyunjie",
     "email": "greecenew@foxmail.com",
     "organization": true
   },
@@ -24,7 +24,7 @@
     "access": "public"
   },
   "license": "MIT",
-  "homepage": "https://github.com/tnnevol/deploy-cli-service/tree/private#readme",
+  "homepage": "https://github.com/zhangyunjie/deploy-cli-service/tree/private#readme",
   "dependencies": {
     "archiver": "^5.0.2",
     "chalk": "^4.1.0",
