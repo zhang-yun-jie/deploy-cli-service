@@ -1,6 +1,6 @@
 {
-  "name": "@zhangyunjie/deploy-cli-service",
-  "version": "2.1.1",
+  "name": "@yun-jie/deploy-cli-service",
+  "version": "2.1.0",
   "description": "自动化部署",
   "main": "lib/index.js",
   "scripts": {
